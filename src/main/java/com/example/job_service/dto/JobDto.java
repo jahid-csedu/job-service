@@ -1,4 +1,4 @@
-package com.example.job_service.job;
+package com.example.job_service.dto;
 
 import lombok.Data;
 

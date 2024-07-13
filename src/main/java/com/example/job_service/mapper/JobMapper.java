@@ -1,6 +1,9 @@
-package com.example.job_service.job;
+package com.example.job_service.mapper;
 
 import com.example.job_service.external.CompanyDto;
+import com.example.job_service.job.Job;
+import com.example.job_service.dto.JobDetailDto;
+import com.example.job_service.dto.JobDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingTarget;

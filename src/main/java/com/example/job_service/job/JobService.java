@@ -1,7 +1,10 @@
 package com.example.job_service.job;
 
+import com.example.job_service.dto.JobDetailDto;
+import com.example.job_service.dto.JobDto;
 import com.example.job_service.external.CompanyClient;
 import com.example.job_service.external.CompanyDto;
+import com.example.job_service.mapper.JobMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

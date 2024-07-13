@@ -1,4 +1,4 @@
-package com.example.job_service.job;
+package com.example.job_service.dto;
 
 import com.example.job_service.external.CompanyDto;
 import lombok.Data;

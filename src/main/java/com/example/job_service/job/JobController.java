@@ -1,5 +1,7 @@
 package com.example.job_service.job;
 
+import com.example.job_service.dto.JobDetailDto;
+import com.example.job_service.dto.JobDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
