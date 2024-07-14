@@ -1,6 +1,5 @@
 package com.example.job_service.job;
 
-import com.example.job_service.dto.JobDetailDto;
 import com.example.job_service.dto.JobDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -38,12 +37,12 @@ public class JobController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<JobDetailDto> getJobById(@PathVariable Long id) {
+    public ResponseEntity<JobDto> getJobById(@PathVariable Long id) {
         return ResponseEntity.ok(jobService.findById(id));
     }
 
     @GetMapping
-    public ResponseEntity<List<JobDetailDto>> getAllJobs() {
+    public ResponseEntity<List<JobDto>> getAllJobs() {
         return ResponseEntity.ok(jobService.findAll());
     }
 }
